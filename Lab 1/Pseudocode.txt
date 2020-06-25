@@ -1,0 +1,42 @@
+#include ...
+using namespace std;
+
+
+(based off template)
+Print a menu to prompt user for input 
+{
+	option 0: Exit
+	option 1: Search by number
+	option 2: Search by activity
+}
+
+int main() {
+	
+
+	open the text file
+	for loop to go through entire text file:
+		store time in the time array
+		store activity in the activity array
+
+	take user input by calling printMenu function
+	
+	if user selected option 1:
+		prompt number from user:
+		store input from user
+		for loop to go through the number array:
+			check each index until the number is found
+			cout the the activity from the activity array at the same index
+
+
+	if user selected option 2:
+		prompt activity from user
+		store input from user
+		for loop to go through the activity array:
+			check each activity until the right one is found
+			cout the the number at the same index from the number array
+
+}
+
+
+	
+	

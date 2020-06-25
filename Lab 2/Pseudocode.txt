@@ -1,0 +1,41 @@
+#include ...
+using namespace std;
+
+
+(based off template)
+Print a menu to prompt user for input 
+{
+	option 0: Exit
+	option 1: Search by number
+	option 2: Search by activity
+}
+
+
+open text file 
+
+
+int main() {
+	
+While loop until the user exits:
+
+	option for input choice of 1:
+		print prompt to user
+		take input and use it to pass to method for array of hours and return index value
+		print out the index of the activity array at the same index
+		handle the exception if the user does not enter a valid hour
+			print out error message and tell user to try again
+
+	option for input choice of 2:
+		print prompt for user
+		take input and use it to pass to method for array of activity and return index value
+		print out the index of the hour array at the same index
+		handle exception if the user does not enter a valid activity
+			print out error message tell user to try again
+		
+	option for the input choice of 0:
+		exit the program
+}
+
+
+	
+	
